@@ -6,7 +6,7 @@ import styles from './carousel.module.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Buttoncarousel from '../buttons/ButtonCarousel';
-import { items } from './../../data/items.json';
+import { items } from './items.json';
 
 export default function BootstrapCarousel() {
   const { bootstrap } = items;
