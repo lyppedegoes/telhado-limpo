@@ -1,0 +1,34 @@
+{
+  "items": {
+    "bootstrap": [
+      {
+        "id": 1,
+        "title": "DEIXE SEU TELHADO NOVO, DE NOVO!",
+        "body": "Bootstrap Carousel Example",
+        "imageUrl": "images/carousel1.png",
+        "btn": "Obter uma cotação"
+      },
+      {
+        "id": 2,
+        "title": "EXCLUSIVA TECNOLOGIA DE LIMPEZA À SECO",
+        "body": "Bootstrap Carousel Example",
+        "imageUrl": "images/carousel2.png",
+        "btn": "Fale conosco"
+      },
+      {
+        "id": 3,
+        "title": "DEVOLVA A COLORAÇÃO ORIGINAL DO SEU TELHADO",
+        "body": "Bootstrap Carousel Example",
+        "imageUrl": "images/carousel3.png",
+        "btn": "Obter uma cotação"
+      },
+      {
+        "id": 4,
+        "title": "SISTEMA INOVADOR, NÃO AGRIDE O MEIO AMBIENTE",
+        "body": "Bootstrap Carousel Example",
+        "imageUrl": "images/carousel4.png",
+        "btn": "Fale conosco"
+      }
+    ]
+  }
+}

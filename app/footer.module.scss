@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  height: 109px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  align-self: stretch;
+
+  background: #0f93fe;
+}
+
+.footer h5 {
+  color: #DEFF4F;
+  font-family: Nexa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}

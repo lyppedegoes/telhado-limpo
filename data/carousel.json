@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "DEIXE SEU TELHADO NOVO, DE NOVO!",
+    "image": "images/carousel1.png",
+    "btn": "Obter uma cotação"
+  },
+  {
+    "id": "2",
+    "title": "EXCLUSIVA TECNOLOGIA DE LIMPEZA À SECO!",
+    "image": "images/carousel2.png",
+    "btn": "Fale conosco"
+  },
+  {
+    "id": "3",
+    "title": "DEVOLVA A COLORAÇÃO ORIGINAL DO SEU TELHADO",
+    "image": "images/carousel3.png",
+    "btn": "Obter uma cotação"
+  },
+  {
+    "id": "4",
+    "title": "SISTEMA INOVADOR, NÃO AGRIDE O MEIO AMBIENTE",
+    "image": "images/carousel4.png",
+    "btn": "Fale conosco"
+  }
+]

@@ -1,95 +1,63 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from 'next/image';
+
+import BootstrapCarousel from './../components/carousel/carousel';
+import ButtonWhatsApp from '@/components/buttons/ButtonWatsapp';
+
+import styles from './page.module.scss';
+import 'normalize.css';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <main>
+      <BootstrapCarousel />
+      <div className={styles.porque}>
+        <h2>POR QUE CONTRATAR NOSSO SISTEMA DE LIMPEZA?</h2>
+        <ul>
+          <li>Alta Durabilidade</li>
+          <li>Não utilizamos água</li>
+          <li>Limpeza Sustentável</li>
+          <li>Processo finalizado com as chuvas</li>
+        </ul>
       </div>
-
-      <div className={styles.center}>
+      <div className={styles.atendente}>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
+          src="/images/atendente.png"
+          alt="Agenda uma visita agora mesmo"
+          width={259}
+          height={300}
           priority
         />
+        <div className={styles.agende}>
+          <p>AGENDE UMA VISITA AGORA MESMO!</p>
+          <ButtonWhatsApp />
+        </div>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className={styles.limpeza}>
+        <div className={styles.item}>
+          <Image
+            src="icons/icon-limpeza.svg"
+            alt="Limpeza Rápida"
+            width={80}
+            height={80}
+            priority
+          />
+          <h2>LIMPEZA RÁPIDA</h2>
+        </div>
+        <div className={styles.item}>
+          <Image src="icons/icon-limpeza.svg" alt="Sem sujeira" width={80} height={80} priority />
+          <h2>SEM SUJEIRA</h2>
+        </div>
+        <div className={styles.item}>
+          <Image
+            src="icons/icon-limpeza.svg"
+            alt="Elimmina os fungos"
+            width={80}
+            height={80}
+            priority
+          />
+          <h2>ELIMINA OS FUNGOS EXISTENTES</h2>
+        </div>
       </div>
     </main>
-  )
+  );
 }

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "question": "O que é a limpeza de telhado a seco?",
+    "texto": "A limpeza de telhado a seco é um método inovador que não utiliza água. Consiste na aplicação de um produto formulado com agentes que eliminam fungos e algas das telhas, inibindo seu reaparecimento por até 2 anos. Dessa forma, as telhas recuperam sua coloração original, eliminando o aspecto de sujeira e envelhecimento causado pelo tempo."
+  },
+  {
+    "id": "2",
+    "question": "Como ocorre a aplicação do produto?",
+    "texto": "O produto é aplicado por meio do método de pulverização, utilizando um equipamento apropriado para essa finalidade. A aplicação é eficaz e rápida, e em alguns minutos o produto já começa a agir nas telhas. Cerca de 70% do resultado é alcançado no momento da aplicação, e após algumas chuvas, o resultado completo de restauração da coloração original das telhas é obtido, atingindo 100%."
+  },
+  {
+    "id": "3",
+    "question": "Qual é o tempo estimado para a realização do serviço?",
+    "texto": "O método de aplicação é rápido e eficaz. Normalmente, a limpeza é concluída em 1 dia ou, no máximo, 2 dias, dependendo do nível de sujeira das telhas, do tipo de telha e das condições climáticas."
+  },
+  {
+    "id": "4",
+    "question": "Qual é o valor do serviço?",
+    "texto": "Oferecemos mão de obra e produto formulado, ajustados às necessidades específicas de cada telhado. O valor do serviço varia de acordo com a quantidade de produto necessário, que é determinada pelo grau de sujeira das telhas."
+  },
+  {
+    "id": "5",
+    "question": "É possível receber uma amostra?",
+    "texto": "Sim, é possível! Visando garantir a confiabilidade do produto, nós realizamos amostras nas residências. Assim, o cliente pode ver o resultado imediato após a aplicação e ter segurança na eficácia do produto."
+  }
+]

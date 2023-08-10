@@ -1,0 +1,51 @@
+.ButtonWhatsApp {
+  display: flex;
+  width: 274px;
+  height: 42px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background: #DEFF4F;
+  text-decoration:none;
+  transition: all 0.2s ease-in-out;
+}
+
+.ButtonWhatsApp:hover {
+  background: #FFFFFF;
+}
+
+.ButtonWhatsApp h2 {
+  color: #0F93FE;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+
+.ButtonCarousel {
+  display: flex;
+  width: 260px;
+  height: 54px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background: #DEFF4F;
+  text-decoration:none;
+  transition: all 0.2s ease-in-out;
+}
+
+.ButtonCarousel h2 {
+  color: #0F93FE;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+
+.ButtonCarousel:hover {
+  background: #FFFFFF;
+}
