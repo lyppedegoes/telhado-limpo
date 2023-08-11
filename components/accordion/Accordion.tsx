@@ -10,7 +10,7 @@ import dataCollection from './dataCollection.json';
 function Accordion() {
   const [accordion, setActiveAccordion] = useState(-1);
 
-  function toggleAccordion(index) {
+  function toggleAccordion(index: React.SetStateAction<number>) {
     if (index === accordion) {
       setActiveAccordion(-1);
       return;
