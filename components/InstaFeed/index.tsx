@@ -11,7 +11,7 @@ interface IFeedItem {
   media_type: 'IMAGE' | 'VIDEO';
   media_url: string;
   permalink: string;
-  thumbnail_url: string;
+  thumbnail_url: 'IMAGE';
 }
 
 export default function InstaFeed() {
@@ -20,7 +20,7 @@ export default function InstaFeed() {
   async function getInstaFeed() {
     try {
       const token = process.env.NEXT_PUBLIC_INSTA_TOKEN;
-      const fields = 'media_url,media_type,permalink';
+      const fields = 'media_url,media_type,permalink,thumbnail_url';
       const url = `https://graph.instagram.com/me/media?access_token=${token}&fields=${fields}`;
 
       const { data } = await axios.get(url);
