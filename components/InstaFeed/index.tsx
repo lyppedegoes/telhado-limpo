@@ -11,6 +11,7 @@ interface IFeedItem {
   media_type: 'IMAGE' | 'VIDEO';
   media_url: string;
   permalink: string;
+  thumbnail_url: string;
 }
 
 export default function InstaFeed() {
@@ -46,7 +47,7 @@ export default function InstaFeed() {
           {item.media_type === 'IMAGE' ? (
             <img className={styles.img} src={item.media_url} />
           ) : (
-            <video className={styles.video} controls>
+            <video className={styles.video} controls poster={item.thumbnail_url}>
               <source src={item.media_url}></source>
             </video>
           )}
