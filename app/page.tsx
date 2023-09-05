@@ -1,8 +1,11 @@
+'use client';
+
 import Image from 'next/image';
 
 import BootstrapCarousel from './../components/carousel/carousel';
 import Accordion from '@/components/accordion/Accordion';
 import ButtonWhatsApp from '@/components/buttons/ButtonWatsapp';
+import Instagram from '@/components/Instagram';
 
 import styles from './page.module.scss';
 
@@ -30,7 +33,7 @@ export default function Home() {
           priority
         />
         <div className={styles.agende}>
-          <p>AGENDE UMA VISITA AGORA MESMO!</p>
+          <p>SOLICITE UM ORÇAMENTO!</p>
           <ButtonWhatsApp />
         </div>
       </div>
@@ -46,12 +49,12 @@ export default function Home() {
           <h2>LIMPEZA RÁPIDA</h2>
         </div>
         <div className={styles.item}>
-          <Image src="icons/icon-limpeza.svg" alt="Sem sujeira" width={80} height={80} priority />
+          <Image src="icons/icon-sujeira.svg" alt="Sem sujeira" width={80} height={80} priority />
           <h2>SEM SUJEIRA</h2>
         </div>
         <div className={styles.item}>
           <Image
-            src="icons/icon-limpeza.svg"
+            src="icons/icon-elimina.svg"
             alt="Elimmina os fungos"
             width={80}
             height={80}
@@ -60,6 +63,7 @@ export default function Home() {
           <h2>ELIMINA OS FUNGOS EXISTENTES</h2>
         </div>
       </div>
+      <Instagram />
       <Accordion />
       <div className={styles.atendente}>
         <Image src="svgs/qrcode.svg" alt="Limpeza Rápida" width={150} height={150} priority />

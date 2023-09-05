@@ -1,0 +1,35 @@
+@import url("https://use.typekit.net/ers0oez.css");
+
+.button__seguir {
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px;
+  align-items: center;
+  
+    border-radius: 8px;
+    background: #0095F6;
+
+    &:hover {
+      background: #186cea;
+    }
+
+    &:active {
+      background: #7eb7dc;
+    }
+  
+  }
+
+  .button__seguir h3 {
+    color: var(--branco, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 0px;
+  }
+  
+  .ancora {
+    text-decoration:none;
+    margin: 0px;
+  }

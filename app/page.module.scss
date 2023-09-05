@@ -17,12 +17,10 @@
 }
 
 .porque ul {
-  list-style: inside url('./../public/svgs/circle.svg');
-
   display: flex;
   flex-wrap: wrap;
   padding: 16px;
-  gap: 8px;
+  gap: 32px;
 
   color: var(--azul, #0f93fe);
   text-align: center;
