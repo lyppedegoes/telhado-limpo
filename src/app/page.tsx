@@ -5,11 +5,12 @@ import Image from 'next/image';
 import BootstrapCarousel from './../components/carousel/carousel';
 import Accordion from '@/components/accordion/Accordion';
 import ButtonWhatsApp from '@/components/buttons/ButtonWatsapp';
-import Instagram from '@/components/Instagram';
+import Form from '@/components/Form/Form';
 
 import styles from './page.module.scss';
 
 import 'normalize.css';
+import InstaFeed from '@/components/InstaFeed/InstaFeed';
 
 export default function Home() {
   return (
@@ -63,7 +64,7 @@ export default function Home() {
           <h2>ELIMINA OS FUNGOS EXISTENTES</h2>
         </div>
       </div>
-      <Instagram />
+      <InstaFeed />
       <Accordion />
       <div className={styles.atendente}>
         <Image src="svgs/qrcode.svg" alt="Limpeza Rápida" width={150} height={150} priority />
@@ -72,6 +73,7 @@ export default function Home() {
           <ButtonWhatsApp />
         </div>
       </div>
+      <Form />
     </main>
   );
 }
