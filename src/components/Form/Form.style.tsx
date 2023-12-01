@@ -1,10 +1,15 @@
 import styled from 'styled-components';
 
 export const StyledForm = styled.form`
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 20px;
+  width: 100vw;
+  margin: 20px auto 0;
   background-color: #deff4e;
+`;
+
+export const StyledFormContent = styled.div`
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 `;
 
 export const StyledTitle = styled.h2`
@@ -47,6 +52,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   border: none;
   cursor: pointer;
+  font-size: 16px;
 
   &:hover {
     background-color: #0c7dc8;
@@ -59,6 +65,7 @@ export const StyledNewMessageButton = styled.button`
   padding: 10px;
   border: none;
   cursor: pointer;
+  font-size: 16px;
 
   &:hover {
     background-color: #0c7dc8;

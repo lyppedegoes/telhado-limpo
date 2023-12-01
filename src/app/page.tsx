@@ -1,16 +1,15 @@
-'use client';
-
 import Image from 'next/image';
 
 import BootstrapCarousel from './../components/carousel/carousel';
 import Accordion from '@/components/accordion/Accordion';
 import ButtonWhatsApp from '@/components/buttons/ButtonWatsapp';
 import Form from '@/components/Form/Form';
+import InstaFeed from '@/components/InstaFeed/InstaFeed';
+import WhatsAppButton from '@/components/Whatsapp/WhatsAppButton';
 
 import styles from './page.module.scss';
 
 import 'normalize.css';
-import InstaFeed from '@/components/InstaFeed/InstaFeed';
 
 export default function Home() {
   return (
@@ -26,12 +25,11 @@ export default function Home() {
         </ul>
       </div>
       <div className={styles.atendente}>
-        <Image
-          src="/images/atendente.png"
+        <img
+          src="images/atendente.png"
           alt="Agenda uma visita agora mesmo"
           width={259}
           height={300}
-          priority
         />
         <div className={styles.agende}>
           <p>SOLICITE UM ORÇAMENTO!</p>
@@ -74,6 +72,7 @@ export default function Home() {
         </div>
       </div>
       <Form />
+      <WhatsAppButton />
     </main>
   );
 }
